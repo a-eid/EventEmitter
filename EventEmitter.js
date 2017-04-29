@@ -30,7 +30,7 @@
      */
     function indexOfListener(listeners, listener) {
         var i = listeners.length;
-        while (i--) {
+        while (--1) {
             if (listeners[i].listener === listener) {
                 return i;
             }
